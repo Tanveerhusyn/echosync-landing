@@ -13,8 +13,8 @@ const Pricing = () => {
             <SectionHeader
               headerInfo={{
                 title: `PRICING PLANS`,
-                subtitle: `Simple Pricing`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                subtitle: `Choose the Best Plan for You`,
+                description: `Pricing is per month and per property. Cancel anytime.`,
               }}
             />
           </div>
@@ -40,23 +40,28 @@ const Pricing = () => {
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Small Pack
+                Basic
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    Copy / Paste Response Generator
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    200 Responses / Month
+                  </li>
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                    Additional Responses on Demand
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Review Management Platform
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    Review Analytics
+                  </li>
+                  <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
+                    24/7 Live Support
                   </li>
                 </ul>
               </div>
@@ -85,33 +90,38 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
-                popular
+                Popular
               </div>
 
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $59{" "}
+                $29{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
                   /month
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Medium Pack
+                Essential
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    Copy / Paste Response Generator
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    800 Responses / Month
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Additional Responses on Demand
+                  </li>
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                    Review Management Platform
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    Review Analytics
+                  </li>
+                  <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
+                    24/7 Live Support
                   </li>
                 </ul>
               </div>
@@ -140,29 +150,34 @@ const Pricing = () => {
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-                $189{" "}
+                $39{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
                   /month
                 </span>
               </h3>
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
-                Large Pack
+                Pro
               </h4>
-              <p>Lorem ipsum dolor sit amet, consec adipisicing elit.</p>
 
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    300 GB Storage
+                    Copy / Paste Response Generator
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Unlimited Photos and Videos
+                    1500 Responses / Month
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Exclusive Support
+                    Additional Responses on Demand
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Custom Branding Strategy
+                    Review Management Platform
+                  </li>
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                    Review Analytics
+                  </li>
+                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
+                    24/7 Live Support
                   </li>
                 </ul>
               </div>

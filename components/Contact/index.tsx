@@ -182,14 +182,14 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>Kamaris, Gulmit Gojal</p>
+                <p>2302 E Dakota St, Philadelphia PA 19125</p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">faizan@echosync-ai.com</a>
                 </p>
               </div>
               <div>
@@ -197,7 +197,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="#">(215) 205-9732</a>
                 </p>
               </div>
             </motion.div>

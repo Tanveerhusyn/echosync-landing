@@ -20,7 +20,7 @@ const featuresData: Feature[] = [
     icon: "/images/icon/icon-03.svg",
     title: "Multi-Platform Integration",
     description:
-      "Seamlessly fetch and respond to reviews across all major review sites and social platforms, ensuring your brand's presence is uniformly excellent everywhere.",
+      "Seamlessly fetch and respond to reviews on major review sites like Google, Booking, and TripAdvisor.",
   },
   {
     id: 4,

@@ -82,7 +82,7 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Experience the future of Review Management
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -92,7 +92,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@echosync.com
+                  faizan@echosync-ai.com
                 </a>
               </motion.div>
 
@@ -141,7 +141,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Careers
+                        Features
                       </a>
                     </li>
                     <li>

@@ -15,9 +15,7 @@ const Feature = () => {
             headerInfo={{
               title: "ECHOSYNC FEATURES",
               subtitle: "Core Features of Echosync",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              description: `Intelligent responses based on your brand's voice and tone.`,
             }}
           />
           {/* <!-- Section Title End --> */}
