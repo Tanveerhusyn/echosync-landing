@@ -3,10 +3,16 @@ import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
 
 const Pricing = () => {
+  const handleClick = () => {
+    window.location.href = "https://admin.echosync-ai.com/";
+  };
   return (
     <>
       {/* <!-- ===== Pricing Table Start ===== --> */}
-      <section className="overflow-hidden pb-20 pt-15 lg:pb-25 xl:pb-30">
+      <section
+        id="pricing"
+        className="overflow-hidden pb-20 pt-15 lg:pb-25 xl:pb-30"
+      >
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top mx-auto text-center">
@@ -68,6 +74,7 @@ const Pricing = () => {
 
               <button
                 aria-label="Get the Plan button"
+                onClick={handleClick}
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
                 <span className="duration-300 group-hover/btn:pr-2">
@@ -128,6 +135,7 @@ const Pricing = () => {
 
               <button
                 aria-label="Get the Plan button"
+                onClick={handleClick}
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
                 <span className="duration-300 group-hover/btn:pr-2">
@@ -184,6 +192,7 @@ const Pricing = () => {
 
               <button
                 aria-label="Get the Plan button"
+                onClick={handleClick}
                 className="group/btn inline-flex items-center gap-2.5 font-medium text-primary transition-all duration-300 dark:text-white dark:hover:text-primary"
               >
                 <span className="duration-300 group-hover/btn:pr-2">

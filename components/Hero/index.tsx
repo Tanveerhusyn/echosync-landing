@@ -44,6 +44,9 @@ const Hero = () => {
                       style={{
                         background: "#006BFF",
                       }}
+                      onClick={() => {
+                        window.location.href = "https://admin.echosync-ai.com";
+                      }}
                       aria-label="get started button"
                       className="flex rounded-full bg-[#006BFF] px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                     >
