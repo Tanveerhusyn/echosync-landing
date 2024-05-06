@@ -90,10 +90,6 @@ const SingleBlogPage = async ({ params }) => {
                     </div>
                   </div>
 
-                  <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                    Kobe Steel plant that supplied
-                  </h2>
-
                   <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                     <li>
                       <span className="text-black dark:text-white">
@@ -142,10 +138,6 @@ const SingleBlogPage = async ({ params }) => {
                     </div>
                   </div>
 
-                  <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                    Kobe Steel plant that supplied
-                  </h2>
-
                   <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                     <li>
                       <span className="text-black dark:text-white">
@@ -193,10 +185,6 @@ const SingleBlogPage = async ({ params }) => {
                       />
                     </div>
                   </div>
-
-                  <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                    Kobe Steel plant that supplied
-                  </h2>
 
                   <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                     <li>
