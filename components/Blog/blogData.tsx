@@ -4,6 +4,7 @@ const BlogData: Blog[] = [
   {
     _id: 1,
     mainImage: "/images/img-one.webp",
+    slug: "blog-1",
     title: "How AI is Revolutionizing Review Management for Businesses",
     metadata: `In the digital age, online reviews have become a crucial factor in a business's success. Potential customers rely heavily on the experiences and opinions shared by others before making purchasing decisions. However, managing these reviews can be a challenging task for businesses, particularly as they expand their online presence. This is where AI-powered review management software, like Echosync, comes into play, changing the way businesses handle their online reputation.
 
@@ -27,6 +28,7 @@ AI-powered review management software like Echosync is revolutionizing the way b
   {
     _id: 2,
     mainImage: "/images/img-two.webp",
+    slug: "blog-2",
     title:
       "10 Strategies for Leveraging Customer Reviews to Boost Your Online Reputation",
     metadata: `In 2024, online reviews have become a crucial factor in shaping a business's reputation and influencing customer decisions. Studies show that 91% of consumers read online reviews, and 84% trust them as much as personal recommendations. As such, businesses must leverage customer reviews effectively to boost their online reputation. In this article, we will discuss 10 practical strategies for encouraging customers to leave reviews and how to respond to both positive and negative feedback effectively.
@@ -36,29 +38,9 @@ AI-powered review management software like Echosync is revolutionizing the way b
     _id: 2,
     mainImage: "/images/img-three.webp",
     title: "The Importance of Responding to Reviews in the Digital Age",
+    slug: "blog-3",
     metadata:
       "In the age of the internet, online reviews have emerged as a potent force, wielding significant influence over consumer behavior and decision-making processes. As an ever-increasing number of customers turn to renowned platforms such as Google, Yelp, and TripAdvisor to share their experiences and opinions, businesses must acknowledge the paramount importance of actively engaging with and responding to these reviews. By dedicating time and effort to crafting thoughtful and strategic responses, businesses can cultivate a myriad of benefits and fortify their online reputation in the eyes of both existing and potential customers.",
-  },
-  {
-    _id: 1,
-    mainImage: "/images/img-two.webp",
-    title: "Free advertising for your online business",
-    metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-  },
-  {
-    _id: 2,
-    mainImage: "/images/img-three.webp",
-    title: "9 simple ways to improve your design skills",
-    metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
-  },
-  {
-    _id: 2,
-    mainImage: "/images/blog/blog-01.png",
-    title: "Tips to quickly improve your coding speed.",
-    metadata:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   },
 ];
 
