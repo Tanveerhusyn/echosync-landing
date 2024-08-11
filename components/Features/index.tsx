@@ -14,8 +14,8 @@ const Feature = () => {
           <SectionHeader
             headerInfo={{
               title: "ECHOSYNC FEATURES",
-              subtitle: "Core Features of Echosync",
-              description: `Intelligent responses based on your brand's voice and tone.`,
+              subtitle: "Intelligent responses based on your brand's voice",
+              description: `AI tuned to your specific business`,
             }}
           />
           {/* <!-- Section Title End --> */}
