@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function HeroScrollDemo() {
   return (
     <div className="flex flex-col overflow-hidden">
-      <ContainerScroll>
+      <ContainerScroll titleComponent={<></>}>
         <Image
           src={`/preview.png`}
           alt="hero"
