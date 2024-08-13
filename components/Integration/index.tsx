@@ -12,7 +12,7 @@ const Integration = () => {
           <SectionHeader
             headerInfo={{
               title: `INTEGRATIONS`,
-              subtitle: `Integration With All Major Review Sites`,
+              subtitle: `Integration With All Major Review Sites Coming Soon`,
               description: `Consolidate all your reviews into one platform.`,
             }}
           />

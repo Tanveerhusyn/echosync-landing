@@ -28,8 +28,8 @@ const Hero = () => {
                 </span>
               </h1>
               <p>
-                Introducing EchoSync - Your all-in-one platform for aggregating
-                and responding to reviews across platforms using AI.
+                Spend 99% less time responding to reviews and focus on growing
+                your business
               </p>
             </div>
             <CardDemo />

@@ -39,6 +39,9 @@ const Pricing = () => {
           <div className="flex flex-wrap justify-center gap-7.5 lg:flex-nowrap xl:gap-12.5">
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
+              <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
+                Popular
+              </div>
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 $49{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
@@ -56,9 +59,6 @@ const Pricing = () => {
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     1 Location
-                  </li>
-                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Generate manual reviews
                   </li>
                   <li className="mb-4 text-black opacity-40 last:mb-0 dark:text-manatee">
                     AI Insights
@@ -93,10 +93,6 @@ const Pricing = () => {
 
             {/* <!-- Pricing Item --> */}
             <div className="animate_top group relative rounded-lg border border-stroke bg-white p-7.5 shadow-solid-10 dark:border-strokedark dark:bg-blacksection dark:shadow-none md:w-[45%] lg:w-1/3 xl:p-12.5">
-              <div className="absolute -right-3.5 top-7.5 -rotate-90 rounded-bl-full rounded-tl-full bg-primary px-4.5 py-1.5 text-metatitle font-medium uppercase text-white">
-                Popular
-              </div>
-
               <h3 className="mb-7.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 $99{" "}
                 <span className="text-regular text-waterloo dark:text-manatee">
@@ -114,9 +110,6 @@ const Pricing = () => {
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     5 Locations
-                  </li>
-                  <li className="mb-4 text-black last:mb-0 dark:text-manatee">
-                    Generate manual reviews
                   </li>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
                     AI Insights
