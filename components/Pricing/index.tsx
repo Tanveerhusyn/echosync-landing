@@ -51,7 +51,9 @@ const Pricing = () => {
               <h4 className="mb-2.5 text-para2 font-medium text-black dark:text-white">
                 Essential
               </h4>
-
+              <div className="mb-2.5 text-sm font-medium text-green-500">
+                7-day free trial
+              </div>
               <div className="mt-9 border-t border-stroke pb-12.5 pt-9 dark:border-strokedark">
                 <ul>
                   <li className="mb-4 text-black last:mb-0 dark:text-manatee">
