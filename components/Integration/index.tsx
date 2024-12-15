@@ -11,9 +11,9 @@ const Integration = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: `INTEGRATIONS`,
-              subtitle: `Integration With All Major Review Sites Coming Soon`,
-              description: `Consolidate all your reviews into one platform.`,
+              title: `Harness the power of AI`,
+              subtitle: `Respond to reviews with one click`,
+              description: `AI-powered review responses that sound authentically human`,
             }}
           />
 
