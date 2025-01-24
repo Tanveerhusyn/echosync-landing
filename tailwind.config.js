@@ -141,7 +141,14 @@ module.exports = {
         line2: "line 6s linear infinite",
         line3: "line 9s linear infinite",
       },
+      perspective: {
+        1000: "1000px",
+      },
+      rotate: {
+        "y-12": "12deg",
+        "x-180": "180deg",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };

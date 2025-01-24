@@ -12,6 +12,8 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import HeroTwo from "@/components/HeroTwo";
+import Feature2 from "@/components/Features/Feature2";
 
 export const metadata: Metadata = {
   title: "EchoSync - Revolutionize Review Management with AI SaaS",
@@ -23,12 +25,14 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      {/* <HeroTwo /> */}
       {/* <Brands /> */}
-      <Feature />
+      {/* <Feature /> */}
+      <Feature2 />
       {/* <About /> */}
       {/* <FeaturesTab /> */}
       {/* <FunFact /> */}
-      <Integration />
+      {/* <Integration /> */}
       {/* <CTA /> */}
       {/* <FAQ /> */}
       {/* <Testimonial /> */}

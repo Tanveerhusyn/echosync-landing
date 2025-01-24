@@ -3,45 +3,27 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/icon/icon-01.svg",
-    title: "Centralized Review Dashboard",
-    description:
-      "Effortlessly gather and manage reviews from various platforms in one centralized dashboard, providing a holistic view of your customer feedback.",
+    icon: "/images/featureOne.gif",
+    title: "Respond to reviews using AI that sounds authentically human",
+    description: `- Respond to reviews in a matter of seconds\n\n- Custom AI trained on your brand voice and industry\n- Handle negative feedback professionally and promptly\n- Businesses that reply to at least 25% of their reviews average 35% more revenue than the average SMB. (Womply Study)`,
   },
   {
     id: 2,
-    icon: "/images/icon/icon-02.svg",
-    title: "AI-Driven Response Crafting",
-    description:
-      "Leverage artificial intelligence to generate thoughtful, personalized responses to reviews, saving time while enhancing customer relations.",
+    icon: "/images/featuresTwo.svg",
+    title: "Boost Your Local SEO",
+    description: `- Rank higher on Google Maps with automated review collection and engagement\n\n- Everything You Need to Dominate Local Search\n- SMBs with 200+ reviews earn twice as much in revenue compared to the average SMB. (Womply Study)`,
   },
   {
     id: 3,
-    icon: "/images/icon/icon-03.svg",
-    title: "Multi-Platform Integration",
-    description:
-      "Seamlessly fetch and respond to reviews on major review sites like Google, Booking, and TripAdvisor.",
+    icon: "/images/featureFour.svg",
+    title: "Frictionless Review Collection",
+    description: `- Zapier integration with thousands of CRMs for automation\n\n- Set once and never worry again about review generation`,
   },
   {
     id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "Advanced Analytics & Insights",
-    description:
-      "Gain deep insights into customer sentiment and review trends with our advanced analytics tools, helping you make informed decisions.",
-  },
-  {
-    id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "Efficient Workflow Automation",
-    description:
-      "Streamline your review management process with automation features that help prioritize responses and alert you to critical feedback.",
-  },
-  {
-    id: 6,
-    icon: "/images/icon/icon-06.svg",
-    title: "Ongoing Feature Enhancements",
-    description:
-      "Benefit from continuous improvements and new features, ensuring your review management system remains cutting-edge without additional cost.",
+    icon: "/images/featureFive.svg",
+    title: "100% Compliant With Google's Terms of Service",
+    description: `- No review gating - all customers can leave reviews\n\n- Fully compliant with Google's review policies\n- Transparent review collection process\n- Follows all FTC guidelines for review management`,
   },
 ];
 

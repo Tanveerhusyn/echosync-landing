@@ -92,7 +92,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  faizan@echosync-ai.com
+                  faizan@echosync.ai
                 </a>
               </motion.div>
             </div>
