@@ -25,7 +25,7 @@ const SingleBlogPage = async ({ params }) => {
                   <div className="mb-10 w-full overflow-hidden ">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src={"/images/img-one.webp"}
+                        src={"/images/article.jpg"}
                         alt="Review Management Software"
                         fill
                         className="rounded-md object-cover object-center"

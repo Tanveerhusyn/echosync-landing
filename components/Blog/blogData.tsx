@@ -3,7 +3,7 @@ import { Blog } from "@/types/blog";
 const BlogData: Blog[] = [
   {
     _id: 1,
-    mainImage: "/images/img-one.webp",
+    mainImage: "/images/article.jpg",
     slug: "maximize-reviews-automated-software",
     title: "Maximize Your Reviews with Automated Review Requests Software",
     metadata: `
