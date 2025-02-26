@@ -16,8 +16,8 @@ import HeroTwo from "@/components/HeroTwo";
 import Feature2 from "@/components/Features/Feature2";
 
 export const metadata: Metadata = {
-  title: "EchoSync - Revolutionize Review Management with AI SaaS",
-  description: "This is Home for Echosync Pro",
+  title: "EchoSync - Grow Your Reviews By 500% | Automated Review Management",
+  description: "Collect customer reviews on autopilot for your small business. Boost local SEO, respond instantly with AI, and increase revenue with EchoSync's review management platform.",
   // other metadata
 };
 

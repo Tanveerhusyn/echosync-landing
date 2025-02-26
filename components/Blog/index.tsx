@@ -12,8 +12,8 @@ const Blog = async () => {
           <SectionHeader
             headerInfo={{
               title: `BLOGS`,
-              subtitle: `Updates & Blogs`,
-              description: `Stay updated with our latest blogs and articles`,
+              subtitle: `Stay updated with our latest insights`,
+              description: ``,
             }}
           />
         </div>

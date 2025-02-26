@@ -8,30 +8,23 @@ const Feature = () => {
   return (
     <>
       {/* <!-- ===== Features Start ===== --> */}
-      <section id="features" className="py-20 lg:py-25 xl:py-30">
-        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
-          {/* <!-- Section Title Start --> */}
+      <section id="features" className="py-16 md:py-20 lg:py-24">
+        <div className="container">
           <SectionHeader
             headerInfo={{
-              title: "ECHOSYNC FEATURES",
-              subtitle:
-                "Avoid negative reviews by turning them into direct feedback",
-              description: `AI tuned to your specific business`,
+              title: "FEATURES",
+              subtitle: "Respond to Reviews Quickly",
+              description: `Engaging with customer feedback is one of the most important things you can do for your business. EchoSync makes it easy to respond to all your reviews in seconds.`,
             }}
           />
-          {/* <!-- Section Title End --> */}
 
-          <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-3 xl:mt-20 xl:gap-12.5">
-            {/* <!-- Features item Start --> */}
-
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4 md:gap-x-6 lg:gap-x-8 xl:gap-x-10">
             {featuresData.map((feature, key) => (
               <SingleFeature feature={feature} key={key} />
             ))}
-            {/* <!-- Features item End --> */}
           </div>
         </div>
       </section>
-
       {/* <!-- ===== Features End ===== --> */}
     </>
   );

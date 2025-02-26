@@ -135,11 +135,32 @@ module.exports = {
           "0%, 100%": { transform: "translateY(100%)" },
           "50%": { transform: "translateY(0)" },
         },
+        shine: {
+          "0%": { left: "-100%" },
+          "100%": { left: "200%" },
+        },
+        pulse: {
+          "0%, 100%": { opacity: 1, transform: "scale(1)" },
+          "50%": { opacity: 0.9, transform: "scale(1.03)" },
+        },
+        "text-shimmer": {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        },
+        fadeIn: {
+          "0%": { opacity: 0, transform: "translateY(10px)" },
+          "100%": { opacity: 1, transform: "translateY(0)" },
+        }
       },
       animation: {
         line1: "line 3s linear infinite",
         line2: "line 6s linear infinite",
         line3: "line 9s linear infinite",
+        shine: "shine 2s ease-in-out infinite",
+        pulse: "pulse 2s ease-in-out infinite",
+        "text-shimmer": "text-shimmer 4s ease-in-out infinite",
+        "fadeIn": "fadeIn 0.8s ease-out forwards",
       },
       perspective: {
         1000: "1000px",

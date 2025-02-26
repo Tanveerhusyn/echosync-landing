@@ -3,27 +3,27 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "/images/featureOne.gif",
-    title: "Respond to reviews using AI that sounds authentically human",
-    description: `- Respond to reviews in a matter of seconds\n\n- Custom AI trained on your brand voice and industry\n- Handle negative feedback professionally and promptly\n- Businesses that reply to at least 25% of their reviews average 35% more revenue than the average SMB. (Womply Study)`,
+    icon: "/images/Frictionless Collection.svg",
+    title: "Frictionless Review Collection",
+    description: `- Zapier integration with thousands of CRMs\n\n- "Set and forget" automation\n\n- Free setup call`,
   },
   {
     id: 2,
-    icon: "/images/featuresTwo.svg",
-    title: "Boost Your Local SEO",
-    description: `- Rank higher on Google Maps with automated review collection and engagement\n\n- Everything You Need to Dominate Local Search\n- SMBs with 200+ reviews earn twice as much in revenue compared to the average SMB. (Womply Study)`,
+    icon: "/images/featureOne.gif",
+    title: "Respond to reviews using AI that sounds authentically human",
+    description: `- Instant AI responses\n\n- Trained on your brand voice\n\n- Professional handling of negative feedback\n\n- 35% more revenue for businesses that respond`,
   },
   {
     id: 3,
-    icon: "/images/featureFour.svg",
-    title: "Frictionless Review Collection",
-    description: `- Zapier integration with thousands of CRMs for automation\n\n- Set once and never worry again about review generation`,
+    icon: "/images/Boost Local SEO.svg",
+    title: "Boost Your Local SEO",
+    description: `- Rank higher on Google Maps\n\n- Dominate local search results\n\n- 2x revenue with 200+ reviews`,
   },
   {
     id: 4,
-    icon: "/images/featureFive.svg",
+    icon: "/images/ToS.svg",
     title: "100% Compliant With Google's Terms of Service",
-    description: `- No review gating - all customers can leave reviews\n\n- Fully compliant with Google's review policies\n- Transparent review collection process\n- Follows all FTC guidelines for review management`,
+    description: `- No review gating\n\n- Fully compliant with Google policies\n\n- Transparent collection process\n\n- FTC guidelines compliant`,
   },
 ];
 
